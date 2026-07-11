@@ -1,0 +1,132 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "WATB Site Content"
+    files:
+      - name: "content"
+        label: "Site Content"
+        file: "content.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Kingdom Tag", name: "kingdom_tag", widget: "string" }
+              - { label: "Wordmark", name: "wordmark", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Creed", name: "creed", widget: "string" }
+
+          - label: "About Us"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Text (English)", name: "text_en", widget: "text" }
+              - { label: "Text (Chinese)", name: "text_zh", widget: "text" }
+
+          - label: "Member Benefits"
+            name: "benefits"
+            widget: "list"
+            fields:
+              - { label: "Icon (emoji)", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Events"
+            name: "events"
+            widget: "object"
+            fields:
+              - { label: "Command Board Intro", name: "intro", widget: "text" }
+
+              - label: "State of Supremacy"
+                name: "state_of_supremacy"
+                widget: "object"
+                fields:
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - label: "Battle Records"
+                    name: "records"
+                    widget: "list"
+                    fields:
+                      - { label: "Date / Server", name: "date", widget: "string" }
+                      - { label: "Result", name: "result", widget: "string" }
+
+              - label: "Season 4"
+                name: "season4"
+                widget: "object"
+                fields:
+                  - { label: "Description", name: "desc", widget: "text" }
+
+              - label: "Blackgold"
+                name: "blackgold"
+                widget: "object"
+                fields:
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - label: "Records"
+                    name: "records"
+                    widget: "list"
+                    fields:
+                      - { label: "Date", name: "date", widget: "string" }
+                      - { label: "Result", name: "result", widget: "string" }
+
+              - label: "Frankie"
+                name: "frankie"
+                widget: "object"
+                fields:
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - label: "Records"
+                    name: "records"
+                    widget: "list"
+                    fields:
+                      - { label: "Date", name: "date", widget: "string" }
+                      - { label: "Result", name: "result", widget: "string" }
+
+              - label: "Alliance Duel"
+                name: "alliance_duel"
+                widget: "object"
+                fields:
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - label: "Records"
+                    name: "records"
+                    widget: "list"
+                    fields:
+                      - { label: "Date", name: "date", widget: "string" }
+                      - { label: "Result", name: "result", widget: "string" }
+
+          - label: "Leadership / Hugh Boss"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - { label: "About Leadership Text", name: "about", widget: "text" }
+              - { label: "Leader Title", name: "leader_title", widget: "string" }
+              - { label: "Leader Name", name: "leader_name", widget: "string" }
+              - { label: "Leader Photo", name: "leader_photo", widget: "image", required: false }
+
+          - label: "Officers"
+            name: "officers"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Migration"
+            name: "migration"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Moments Gallery"
+            name: "moments"
+            widget: "object"
+            fields:
+              - label: "Photos"
+                name: "photos"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Thumbnail / Photo", name: "thumb", widget: "image" }
+                  - { label: "Full Quality (optional)", name: "full", widget: "image", required: false }
+                  - { label: "Caption", name: "cap", widget: "string", required: false }

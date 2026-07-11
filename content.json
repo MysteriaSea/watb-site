@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "kingdom_tag": "#411",
+    "wordmark": "WATB",
+    "tagline": "We Are The Best",
+    "creed": "United by loyalty. Driven by discipline. Built to survive. Born to dominate."
+  },
+  "about": {
+    "text_en": "We are not only a clan — we are a force that stands together through every battle, every season and every challenge. Every member has a role, every action has purpose and every victory is earned through coordination, trust and commitment. We fight with strategy, we grow through teamwork and we protect what we build together.",
+    "text_zh": "我們不僅是一個家族，更是一股團結的力量，攜手共渡每一場戰鬥、每一個季節、每一個挑戰。每個成員都各司其職，每個行動都意義非凡，每一場勝利都源自於協作、信任和奉獻。我們運用策略作戰，透過團隊合作成長，並守護我們共同創造的一切。"
+  },
+  "benefits": [
+    {
+      "icon": "🎁",
+      "title": "1. Alliance Gifts (Speed-ups)",
+      "text": "Speed-ups are consistently abundant through Alliance Gifts. As speed-ups are used continuously, resources may become limited, but stable speed-up supply ensures smooth overall progression."
+    },
+    {
+      "icon": "🤝",
+      "title": "2. RSS Support",
+      "text": "When resources run low, RSS support can be requested and provided. This helps maintain steady progression during heavy speed-up usage."
+    },
+    {
+      "icon": "🎫",
+      "title": "3. VIP Carry Support",
+      "text": "VIP carry support is provided for members. Assistance from stronger players helps members progress more smoothly through key content and battles."
+    },
+    {
+      "icon": "❤️",
+      "title": "Actual Support Provided",
+      "text": "The images below show the actual Alliance Gifts and RSS support we have received, demonstrating that speed-ups remain consistently abundant."
+    }
+  ],
+  "events": {
+    "intro": "Our weekly events are more than routine tasks — they are training grounds for greater battles. This is where our discipline grows, our teamwork becomes stronger, and our determination is tested. Every event prepares WATB for the bigger challenges ahead.",
+    "state_of_supremacy": {
+      "desc": "State of Supremacy is the most important war in the game. In reality, the event most players consider the true measure of a server's strength is State of Supremacy.",
+      "records": [
+        { "date": "2026-06-13 · Server #415", "result": "#411 2,292,075 vs #415 1,337,375" },
+        { "date": "2026-05-16 · Server #413", "result": "#411 held 94.23% capture vs #413 0.54%" },
+        { "date": "2026-04-04 · Server #417", "result": "Invader: #411 [WATB] Hugh Boss" },
+        { "date": "2026-03-07 · Server #406", "result": "#411 3,163,925 vs #406 1,373,525" }
+      ]
+    },
+    "season4": {
+      "desc": "Season rankings show WATB consistently holding #1 in Soulstone rankings and Trade Post alliance standings across multiple seasons."
+    },
+    "blackgold": {
+      "desc": "Fight for control, hold key objectives, and secure rewards through teamwork and strategy.",
+      "records": [
+        { "date": "2026-06-07", "result": "WIN — [WATB] WE ARE THE BEST 560,848" }
+      ]
+    },
+    "frankie": {
+      "desc": "Frankie is not a solo fight — it is a clan effort. Every rally joined helps the team grow stronger, earn rewards and move forward together.",
+      "records": [
+        { "date": "2026-06-08", "result": "Lv.40 — 100% reached, 18:18 remaining" }
+      ]
+    },
+    "alliance_duel": {
+      "desc": "Compete, complete daily tasks, earn rewards and win. Our alliance has never lost a single Alliance Showdown.",
+      "records": [
+        { "date": "", "result": "#411 [WATB] — 14:0 vs opponents" }
+      ]
+    }
+  },
+  "leadership": {
+    "about": "Our leadership focuses on organization, event planning, member support, and clan growth. WATB #411 is built on teamwork, discipline and clear direction. We play seriously, we coordinate carefully and we protect the strength and reputation of the clan.",
+    "leader_title": "Clan Leader",
+    "leader_name": "#411 [WATB] Hugh Boss",
+    "leader_photo": "/images/uploads/leader-placeholder.jpg"
+  },
+  "officers": {
+    "text": "Coming soon — officer roster being finalized."
+  },
+  "migration": {
+    "text": "Coming soon — migration details being finalized."
+  },
+  "moments": {
+    "photos": []
+  }
+}
